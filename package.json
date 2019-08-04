@@ -15,12 +15,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "predeploy": "npm run build",
-    "deploy": "aws s3 sync build/ s3://notes-app-client-1999 --delete",
-    "postdeploy": "aws cloudfront create-invalidation --distribution-id E1N9IRLNZDT2Y6 --paths /*",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  },
+  },  
   "eslintConfig": {
     "extends": "react-app"
   },
