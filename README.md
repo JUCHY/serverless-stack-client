@@ -1,3 +1,5 @@
+This is the front-end, for back-end API, go to https://github.com/JUCHY/serverless-stack-api
+
 # Notes-App Client
 
 Deployed on Netlify
